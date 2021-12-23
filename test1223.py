@@ -12,7 +12,7 @@ for i in range(4):
     answer+=str(items[i])
 while(True):
     #number=st.text_input('請輸入數字： ')
-number=st.number_input('請輸入數字： ')
+    number=st.number_input('請輸入數字： ')
     st.write(answer)
     if not number.isdigit():  #cheak all input is digit
         pass

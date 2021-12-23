@@ -17,7 +17,7 @@ while(True):
     if not numberst.isdigit():  #判斷數字
    # if not number.isdigit():  #判斷數字
     pass
-    else:
+        else:
         if number==answer:
             st.write('excellent you guess the correct number')
             break

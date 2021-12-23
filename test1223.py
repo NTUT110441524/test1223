@@ -5,15 +5,15 @@ import random
 import streamlit as st
 
 items = [1, 2, 3, 4, 5, 6, 7, 8, 9, 0]
-random.shuffle(items)
+random.shuffle(items)#範圍隨機產出
 answer=''
 a_count=0 # initial A count
 b_count=0 # initial B count
 for i in range(4):
     answer+=str(items[i])
 while(True):
-    number=st.text_input('Enter the number: ')
-    if not number.isdigit():  #cheak all input is digit
+    number=st.text_input('Enter the number ')
+    if not number.isdigit():  #判斷數字
         pass
     else:
         if number==answer:

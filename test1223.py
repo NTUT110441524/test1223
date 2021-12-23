@@ -14,7 +14,8 @@ for i in range(4):
 while(True):
     st.number_input('Enter the number: ')
     #number=st.text_input('Enter the number: ')
-    if not number.isdigit():  #判斷數字
+    if not numberst.isdigit():  #判斷數字
+   # if not number.isdigit():  #判斷數字
         pass
     else:
         if number==answer:

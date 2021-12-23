@@ -27,7 +27,7 @@ def gamer():
             starter = False
         while counter < 5:
             result = 0
-            answer str= input("請輸入你的答案：")
+            answer = input("請輸入你的答案：")
             for i in range(0,len(finans)):
                 for j in range(0,len(finans)):
                     if answer[i] == finans[j]:

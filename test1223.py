@@ -17,7 +17,7 @@ while(True):
     st.write(answer)
     #if not number.isdigit():  #cheak all input is digit
     #if  number.isdigit():  #cheak all input is digit
-        pass
+pass
     else:
         if number==answer:
             st.write('很棒你答對了')

@@ -35,7 +35,8 @@ def gamer():
                             result += 10
                         else:
                             result += 1
-            print(str(int(result/10)) + 'A' + str(result%10) + 'B')
+            #print
+            st.write(str(int(result/10)) + 'A' + str(result%10) + 'B')
             counter += 1
             if result == 40:
                 print("恭喜你，答案就是" + str(finans))

@@ -12,7 +12,7 @@ b_count=0 # initial B count
 for i in range(4):
     answer+=str(items[i])
 while(True):
-    number=st.text_input('Enter the number ')
+number=st.text_input('Enter the number: ')
     if not number.isdigit():  #判斷數字
         pass
     else:

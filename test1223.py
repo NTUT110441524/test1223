@@ -13,6 +13,7 @@ for i in range(4):
 while(True):
     #number=st.text_input('請輸入數字： ')
     number=st.number_input('請輸入數字： ')
+    number.isdigit(number)
     st.write(answer)
     if not number.isdigit():  #cheak all input is digit
         pass

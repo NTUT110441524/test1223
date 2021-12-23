@@ -15,7 +15,8 @@ while(True):
     number=st.number_input('請輸入數字： ')
     #number.isdigit(number)
     st.write(answer)
-    if not number.isdigit():  #cheak all input is digit
+    #if not number.isdigit():  #cheak all input is digit
+    if  number.isdigit():  #cheak all input is digit
         pass
     else:
         if number==answer:
